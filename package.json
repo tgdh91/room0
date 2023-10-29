@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "push": "rollup -cw --bundleConfigAsCjs --environment DEST:main",
+    "local": "rollup -cw --bundleConfigAsCjs --environment DEST:local",
+    "build": "rollup -cw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "source-map": "^0.6.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/lodash": "^3.10.1",
+    "@types/node": "^20.8.7",
+    "@types/screeps": "^3.3.5",
+    "rollup": "^4.1.4",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-screeps": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.2.2"
+  },
+  "type": "module"
+}

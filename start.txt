@@ -1,0 +1,2 @@
+Game.getObjectById('653bad3f94bd2214aabd7582').spawnCreep([MOVE,WORK,CARRY], 'harvester_01', { memory: { configName: 'harvester1' }})
+Game.getObjectById('653bad3f94bd2214aabd7582').spawnCreep([MOVE,WORK,CARRY], 'upgrader_01', { memory: { configName: 'upgrader1' }})
